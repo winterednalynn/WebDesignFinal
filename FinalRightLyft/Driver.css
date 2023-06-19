@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Comic+Neue:wght@300&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Comic+Neue:wght@300&family=Lobster&family=Quicksand&display=swap');
+html{
+    background-color: rgb(254, 255, 187);
+    height:100%;
+    
+}
+.Logo{
+    font-family: 'DM Serif Display', serif;
+    position: relative;
+    font-size: 2em;
+    font-weight: bold; 
+    text-align:left; 
+    
+}
+.Logo-image{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    opacity:30%
+  
+}
+.Logo-image:hover{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    opacity:100%;
+}
+.header-container{
+    display:grid; 
+    border: 1px solid #3bfc9b; 
+    padding: 1em; 
+    border-radius: 4px; 
+    box-shadow: 0 0 1px rgb(62, 61, 61); 
+    margin: 2em; 
+   
+}
+.rightlift-links{
+    font-family: 'DM Serif Display', serif;
+    position:absolute;
+    display:block; 
+    grid-template-columns: auto;
+    margin-bottom:10%;
+    margin-top: 1%;
+    margin-left:10%;
+    
+}
+.rightlift-links a{
+    color: #000000df;
+    text-decoration: none;  
+    margin: 2em;
+    font-size:20px;    
+    
+}
+.rightlift-links a:hover{
+    background-color:rgb(36, 191, 238); 
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration-line: underline;
+    
+
+}
+.ExperienceImg1{
+    width:100%; 
+    height:50%; 
+}
+.ExperienceImg2{
+    width:100%; 
+    height:50%; 
+}
+.ExperienceImg3{
+    width:100%; 
+    height:50%; 
+}
+.ExperienceImg{
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+}
+.DriverExperience-container{
+    content: "";
+    clear: both;
+    display: table;
+}
+.Finding-Title{
+    text-align: center;
+    text-decoration-line: overline;
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+}
+
+
+.Finding-reviewheader{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgb(11, 241, 11);
+    background-color: black;
+    
+}
+
+.Driver1{
+    width:320px; 
+    height:285px; 
+    
+}
+
+.Driver2{
+    width:320px; 
+    height:330px; 
+}
+
+.Driver3{
+    width:320px; 
+    height:330px; 
+}
+
+.Driver4{
+    width:320px; 
+    height:330px; 
+}
+
+.Driver5{
+    width:320px; 
+    height:300px;
+}
+
+.Driver6{
+    width:320px; 
+    height:300px;
+}
+
+.Finding-container{
+   display:grid; 
+   grid-template-columns:repeat(3, 3fr);
+   grid-template-rows:auto; 
+   gap: 10px; 
+   padding:20px; 
+   border-radius:5px; 
+
+}
+.Finding-Image{
+    display:grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px; 
+    padding:20px; 
+    border-radius:5px; 
+    box-shadow: 0 0 10px rgb(62,102,102); 
+    margin:auto; 
+    border:2px solid rgb(0, 0, 0); 
+}
+
+/* Driver Liam  */
+.Driver1-List{
+    font-size: 14px;
+    position:relative; 
+    height:100%;
+    margin: auto;
+    margin-top:80px;
+    font-family: 'Quicksand', sans-serif;
+}
+.Driver1-name{
+    position:absolute; 
+    margin-bottom: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+.Driver1-stars{
+    position:absolute; 
+    margin-top:30px;
+    font-size: 30px;
+    color: rgb(128, 255, 0);
+    font-weight: bolder;
+}
+
+/* Driver Kelly-Anne Leigh  */
+.Driver2-name{
+    position:absolute; 
+    margin-bottom: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+.Driver2-stars{
+    position:absolute; 
+    margin-top:30px;
+    font-size: 30px;
+    color: rgb(128, 255, 0);
+    font-weight: bolder;
+}
+.Driver2-List{
+    font-size: 15px;
+    position:relative; 
+    height:100%;
+    margin: auto;
+    margin-top:80px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Fraizer Sky  */
+.Driver3-name{
+    position:absolute; 
+    margin-bottom: 50px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.Driver3-stars{
+    position:absolute; 
+    margin-top:30px;
+    font-size: 30px;
+    color: rgb(128, 255, 0);
+    font-weight: bolder;
+}
+.Driver3-List{
+    font-size: 15px;
+    position:relative; 
+    height:100%;
+    margin: auto;
+    margin-top:80px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Driver: Alana May*/
+.Driver4-name{
+    position:absolute; 
+    margin-bottom: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+.Driver4-stars{
+    position:absolute; 
+    margin-top:30px;
+    font-size: 30px;
+    color: rgb(128, 255, 0);
+    font-weight: bolder;
+}
+.Driver4-List{
+    font-size: 15px;
+    position:relative; 
+    height:100%;
+    margin: auto;
+    margin-top:80px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Driver: January Sierra*/
+.Driver5-name{
+    position:absolute; 
+    margin-bottom: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+.Driver5-stars{
+    position:absolute; 
+    margin-top:30px;
+    font-size: 30px;
+    color: rgb(128, 255, 0);
+    font-weight: bolder;
+}
+.Driver5-List{
+    font-size: 15px;
+    position:relative; 
+    height:100%;
+    margin: auto;
+    margin-top:80px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Driver: Gabriella Simone*/
+
+.Driver6-name{
+    position:absolute; 
+    margin-bottom: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+.Driver6-stars{
+    position:absolute; 
+    margin-top:30px;
+    font-size: 30px;
+    color: rgb(128, 255, 0);
+    font-weight: bolder;
+}
+.Driver6-List{
+    font-size: 15px;
+    position:relative; 
+    height:100%;
+    margin: auto;
+    margin-top:80px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Additional Five Star Drivers */
+
+.MoreDriver-Title{
+    position:absolute;
+    top:auto;
+    bottom:auto;
+    margin-right:auto;
+    margin-left:400px;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-weight:lighter;
+    color:rgb(0, 255, 0); 
+    background-color: black;
+    letter-spacing: 0.2em;
+    
+    
+
+}
+.More-Drivers{
+    position:relative;
+    height:90px;
+    width:200px;
+    margin-top: 95px;
+    margin-left:40px;
+    overflow:auto;
+    border:8px solid yellowgreen;
+    padding:2em;
+}
+.Drivers-List{
+    margin-top:0%;
+    width:260%;
+}
+
+/*Book a driver*/ 
+.BookADriver-Title{
+    text-align: center;
+    text-decoration-line: overline;
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+
+}
+.DriverBooker{
+    text-align:center;
+    font-size: 20px;
+    color:blue;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 300px;
+}
+
+footer{
+    background-color: #23ff6c8a;
+    text-align: center; 
+    padding: 1em; 
+    color: #000000; 
+    position: absolute; 
+    width:100%;
+   
+}
+@media screen and (max-width:600px){
+    html{
+        background-color: rgb(240, 253, 61);
+    }
+    .Logo{
+        font-family: 'DM Serif Display', serif;
+        position: relative;
+        font-size: 2em;
+        font-weight: bold; 
+        text-align:left; 
+        opacity:0%;
+        
+    }
+    .Logo-image{
+        position: absolute;
+        height: 50px;
+        width: 150px;
+        opacity:30%
+      
+    }
+    .Logo-image:hover{
+        position: absolute;
+        height: 50px;
+        width: 150px;
+        opacity:100%;
+    }
+    .header-container{
+        display:grid; 
+        border: 1px solid #ccc; 
+        padding: 1em; 
+        border-radius: 3px; 
+        box-shadow: 0 0 1px rgb(62, 61, 61); 
+        margin: 4em; 
+       
+    }
+    .rightlift-links{
+        font-family: 'DM Serif Display', serif;
+        position:absolute;
+        display:block; 
+        grid-template-columns: auto;
+        margin-bottom:10%;
+        margin-top: 1%;
+        margin-left:10%;
+        
+    }
+    .rightlift-links a{
+        color: #000000df;
+        text-decoration: none;  
+        margin: 2em;
+        font-size: 10px;    
+        margin-right:30px;
+        
+    }
+    .rightlift-links a:hover{
+        background-color:chartreuse; 
+        font-weight: bold;
+        font-size: 10px;
+    
+    }
+    .Finding-container{
+        display:grid; 
+        grid-template-columns:repeat(1, 1fr);
+        grid-template-rows:auto; 
+        gap: 10px; 
+        padding:20px; 
+        border-radius:5px; 
+     
+     }
+     .Finding-Image{
+         display:grid; 
+         grid-template-columns: repeat(1, 1fr);
+         gap:10px; 
+         padding:20px; 
+         border-radius:5px; 
+         box-shadow: 0 0 10px rgb(62,102,102); 
+         margin:auto; 
+         border:2px solid rgb(0, 0, 0); 
+     }
+   
+}
+
